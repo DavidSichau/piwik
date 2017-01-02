@@ -15,8 +15,8 @@ meteor add davidsichau:piwik
 
 Add the following Environmentsvariables
 ```
-PIWIK_SITE_ID = `http://your_piwik_server_url/piwik.php"`
-PIWIK_URL = `0`
+PIWIK_SITE_ID = `0`
+PIWIK_URL = `http://your_piwik_server_url/piwik.php`
 PIWIK_TOKEN = `<YOUR SECRET PIWIK TOKEN>`
 
 ```
