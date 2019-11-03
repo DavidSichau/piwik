@@ -1,7 +1,9 @@
 {
   "dependencies": {
     "piwik-tracker": {
-      "version": "0.1.1"
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/piwik-tracker/-/piwik-tracker-1.0.0.tgz",
+      "from": "piwik-tracker@1.0.0"
     }
   }
 }

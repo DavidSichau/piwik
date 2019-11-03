@@ -1,7 +1,7 @@
 var PiwikTracker = Npm.require('piwik-tracker');
 
-var site_id = process.env.PIWIK_SITE_ID;
-var piwik_url = process.env.PIWIK_URL;
+var site_id = process.env.PIWIK_SITE_ID || Meteor.settings.piwik.site_id ;
+var piwik_url = process.env.PIWIK_URL || Meteor.settings.piwik.url;
 
 
 //stup for development settings
